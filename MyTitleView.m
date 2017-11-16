@@ -83,7 +83,7 @@
     }
     
     [UIView animateWithDuration:0.2 animations:^{
-        self.labline.center = CGPointMake(btn.center.x, btn.center.y + 47/2 - 3);
+        self.labline.center = CGPointMake(btn.center.x, self.labline.center.y);
     }];
 }
 
